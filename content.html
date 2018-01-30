@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">  
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+		<meta name="HandheldFriendly" content="true"> 
+	
+		<title>胜牌优品滤清器-胜牌优品滤清器</title>
+			
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css" />
+			
+	</head>
+	<body>
+		<div class="logo"><img src="img/logo.png" alt=""></div>
+		
+		<h2>欢迎使用胜牌优品超级目录</h2>
+		<button>请先加入胜牌优品大家庭</button>
+		<div class="tab">
+		<div class="tab_nav">
+			<div>
+				<a href="content">原厂编码</a>
+				<a href="content">适用车型</a>
+				<a href="content">胜牌优品编码</a>
+			</div>
+		</div>
+		<div class="tab_content clearfloat" id="content">
+			<div class="select">
+				<select>
+				  <option value ="all">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全部</option>
+				  <option value ="oil">&nbsp;&nbsp;&nbsp;&nbsp;机油滤</option>
+				  <option value="air">&nbsp;&nbsp;&nbsp;&nbsp;空气滤</option>
+				  <option value="conditioning">&nbsp;&nbsp;&nbsp;&nbsp;空调滤</option>
+				  <option value="fuel_oil">&nbsp;&nbsp;&nbsp;&nbsp;燃油滤</option>
+				
+				</select>
+			</div>
+			<div class="search">
+				<input name="key" type="text" id="key" style="color:#000;" value="搜素支持" size="20" onmouseover=this.focus();this.select(); onclick="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#CCC'}" style="color:#000" />
+				<div style="background-color: #D51618;"><input class="submit" type="submit" id="ddf" onclick="return aa();"></div>
+			</div>
+		</div>
+	</div>
+		<div class="con clearfloat">
+			<span>FQ-23175详情</span>
+			<ul>
+				<li><img src="img/4.jpg"/></li>
+				<li>胜牌编码：<br/>FQ-23175</li>
+				<li>原厂编码：<br/>ASJDFHKA ASJDFHKA ASJDFHKA</li>
+				<li>通用车型：<br/>MG3 2011款 1.3L AMT舒适版 荣威550 2010款 550S 1.8L 自动启臻贺岁版 荣威550 2010款 550S 1.8L 自动启臻贺岁版 荣威550 2010款 550S 1.8L 自动启臻贺岁版 荣威550 2010款 550S 1.8L 自动启臻贺岁版 荣威550 2010款 550S 1.8L 自动启臻贺岁版</li>
+				<li>参考规格：<br/>螺纹：3/4-16<br/>密封圈尺寸：71.5*62.5<br/>外径：78 高度：120</li>
+			</ul>
+		</div>
+	
+		<div class="footer">
+			<span>
+			Copyright 2017 深圳市稳胜过滤器有限公司<br/> All Right Reserved. 粤ICP备06036382号</span>
+		</div>
+			
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.min.js" ></script>
+		<script>
+			$(".tab_nav a").click(function(){
+				$(this).addClass("active").siblings().removeClass("active");
+				
+				
+				event.preventDefault();
+			})
+			$(".search a").click(function(){
+				$("input").value("")
+			})
+
+		</script>
+
+	</body>
+</html>

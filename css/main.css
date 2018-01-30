@@ -1,0 +1,15 @@
+.main{width: 66.875%;padding-top: 2rem;margin: 0 auto;}
+.main li{height: 12rem;margin-bottom:2rem;float: left;display: table;}
+.main li a{display: block;color: #000000;float: left;font-size: 1.6rem;padding: 0 2% 0 0;font-weight: 500;}
+.mian .pic{width: 14.187%;}
+.main .pic img{width: 100%;height: 100%;}
+.main .numbering{width: 10%;margin-top: 3.2rem;}
+.main .models{width: 25.87%;}
+.main .num{margin-top: 5rem;}
+.main .size{width: 16.47%; padding-right: none;margin-top: 2rem;}
+
+
+@media screen and(max-width: 360px) {
+	.main{width: 93%;}
+	.pic{width: 24%;}
+}
